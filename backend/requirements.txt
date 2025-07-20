@@ -1,0 +1,23 @@
+# FastAPI Core
+fastapi>=0.95.0
+uvicorn[standard]>=0.23.2
+
+# Database + ORM
+sqlalchemy>=1.4.49
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.9
+alembic>=1.13.1
+python-dotenv>=1.0.1
+python-multipart>=0.0.7
+
+# LLM APIs
+openai>=1.30.1
+google-generativeai>=0.3.2
+requests>=2.31.0
+
+# RAG + Embedding
+sentence-transformers==2.7.0
+torch>=2.1.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn>=1.0.0 # for cosine_similarity if needed outside sentence-transformers
